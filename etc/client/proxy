@@ -1,0 +1,1 @@
+KUBE_PROXY_ARGS="--master=https://11.11.1.6:443 --kubeconfig=/etc/kubernetes/kubeconfig --logtostderr=false --log-dir=/var/log/kubernetes --v=2 "

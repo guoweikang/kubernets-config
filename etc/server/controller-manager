@@ -1,0 +1,1 @@
+KUBE_CONTROLLER_MANAGER_ARGS="--master=https://11.11.1.6:443 --logtostderr=false --log-dir=/var/log/kubernetes --v=2 --service_account_private_key_file=/etc/kubernetes/server-ca/server.key --root-ca-file=/etc/kubernetes/server-ca/ca.crt --kubeconfig=/etc/kubernetes/kubeconfig"
